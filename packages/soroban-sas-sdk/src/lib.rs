@@ -19,9 +19,13 @@ pub mod simulate;
 pub mod strkey;
 pub mod transaction;
 
+pub mod chaos;
 pub mod errors;
 pub mod events;
+pub mod schema_macro;
+pub use attestation_builder::AttestationRequestBuilder;
 pub use rpc::RateLimitPolicy;
 pub use schema_builder::SchemaBuilder;
+pub use schema_macro::SchemaType;
 #[cfg(test)]
 mod test;
