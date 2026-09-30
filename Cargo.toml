@@ -70,3 +70,9 @@ soroban-sas-common = { path = "packages/soroban-sas-common" }
 
 [workspace.lints.clippy]
 new_without_default = "allow"
+
+[portable]
+
+[package.metadata.docs]
+all-features = true
+documentation = "https://soroban-sas.github.io/soroban-sas-sdk/"
